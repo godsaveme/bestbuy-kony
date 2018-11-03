@@ -79,29 +79,41 @@ define(() => {
                 }
                 kony.print('pasthzz ' + JSON.stringify(path.length));
                 if (path.length > 0) {
-                    this.breadcrumbUpdate(path);
+                    this.breadcrumbUpdate(path, 'categories');
                 } else {
                     alert('There was a error processing breadcrumbs');
                 }
             } else {
-                if (res.categories) {
-                    let categories = res.categories[0];
-                    let categoryPathId = {
-                        'categoryPathId': categories.idParent
-                    };
-                    this.getProductsByCategory(categoryPathId);
-                }
+                //if(res.categories){
+                //  let categories = res.categories[0];
+                //  let categoryPathId = {'categoryPathId': categories.idParent};
+                //  this.getProductsByCategory(categoryPathId);
+                //}
+                this.view.flxCategories.isVisible = false;
+                this.view.flxProducts.isVisible = true;
+                let segCategoriesItemId = this.view.segCategories.selectedRowItems[0].id;
+                let segCategoriesItemName = this.view.segCategories.selectedRowItems[0].name;
+                let categoryPathId = {
+                    'categoryPathId': segCategoriesItemId
+                };
+                this.getProductsByCategory(categoryPathId);
+                this.breadcrumbUpdate(segCategoriesItemName, 'products');
             }
         } else {
             alert('There was an error processing categories');
         }
     }
 
-    function breadcrumbUpdate(path) {
+    function breadcrumbUpdate(path, type) {
         let breadcrumbsTxt = "";
-        path.forEach(element => {
-            breadcrumbsTxt += element.name + " > ";
-        });
+        if (type === 'categories') {
+            path.forEach(element => {
+                breadcrumbsTxt += element.name + " > ";
+            });
+        }
+        if (type === 'products') {
+            breadcrumbsTxt = 'Category: ' + path;
+        }
         this.view.lblBreadcrumb.text = breadcrumbsTxt;
     }
 
