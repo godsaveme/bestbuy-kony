@@ -1,0 +1,23 @@
+function skinsInit() {
+    CopydefBtnNormal0f019707e11c641 = "CopydefBtnNormal0f019707e11c641";
+    CopydefBtnNormal0f7cc9fbf8b234f = "CopydefBtnNormal0f7cc9fbf8b234f";
+    CopydefLabel0a20231e12af540 = "CopydefLabel0a20231e12af540";
+    Copyseg0d5f6221fd6b34e = "Copyseg0d5f6221fd6b34e";
+    CopyslFbox0b3ab332aebd545 = "CopyslFbox0b3ab332aebd545";
+    CopyslForm0cddd5ec095d640 = "CopyslForm0cddd5ec095d640";
+    defBtnFocus = "defBtnFocus";
+    defBtnNormal = "defBtnNormal";
+    defLabel = "defLabel";
+    seg2Focus = "seg2Focus";
+    seg2Normal = "seg2Normal";
+    slDynamicNotificationForm = "slDynamicNotificationForm";
+    slFSbox = "slFSbox";
+    slFbox = "slFbox";
+    slForm = "slForm";
+    slImage = "slImage";
+    slPopup = "slPopup";
+    slStaticNotificationForm = "slStaticNotificationForm";
+    slTitleBar = "slTitleBar";
+    slWatchForm = "slWatchForm";
+    sliPhoneSegmentHeader = "sliPhoneSegmentHeader";
+};

@@ -1,0 +1,37 @@
+{
+    "AS_Segment_d6acae5ffebe48908a4aee87af2b8821": {
+        "id": "AS_Segment_d6acae5ffebe48908a4aee87af2b8821",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c5b269f98f7f42d3b3ade112c8e9b47f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___dc920dc8b179417fafc3c59bdf69212e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onRowClickSegCategories",
+            "display": "onRowClickSegCategories",
+            "inputparams": [{
+                "name": "e",
+                "value": " eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
