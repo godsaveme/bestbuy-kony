@@ -35,7 +35,7 @@
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "5%"
+        "value": "7%"
     },
     "centery": {
         "type": "string",
@@ -44,9 +44,14 @@
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "se6333e4def24eb289defb80215d8114",
+    "focusskin": "sff494d62a4e41ba9a16bdaf9687c5a1",
     "id": "btnBack",
     "info": null,
+    "iphone": {
+        "psp": {
+            "showProgressIndicator": true
+        }
+    },
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "ic667bcc87a8409fb2c97833e1b04cff",
@@ -55,6 +60,7 @@
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
+    "showprogressindicator": true,
     "wType": "Button",
     "zindex": 1
 }

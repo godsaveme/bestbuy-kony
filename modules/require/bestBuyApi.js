@@ -1,3 +1,4 @@
+/* jshint esnext: true */
 define(() => {
 
     let bestBuyApi_ = class bestBuyApi {
@@ -20,10 +21,10 @@ define(() => {
       	showLoadingScreen(description){
       		kony.application.showLoadingScreen("skProgress", description, constants.LOADING_SCREEN_POSITION_ONLY_CENTER, true, true, null);
         }
-    }
+    };
 
     return {
         bestBuyApi: bestBuyApi_
-    }
+    };
 }
 );

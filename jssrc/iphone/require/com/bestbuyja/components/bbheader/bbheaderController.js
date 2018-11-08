@@ -9,5 +9,10 @@ define(function() {
             this.initGettersSetters.apply(this, arguments);
         }
     };
+    controller.AS_btnBackOnClick_ic667bcc87a8409fb2c97833e1b04cff = function() {
+        if (this.btnBackOnClick) {
+            this.btnBackOnClick.apply(this, arguments);
+        }
+    }
     return controller;
 });

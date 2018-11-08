@@ -12,8 +12,8 @@ var appConfig = {
     middlewareContext: "BestBuyJA",
     isturlbase: "https://qualifacts-qa.konycloud.com/services",
     isMFApp: true,
-    appKey: "d9a9daa65c3b1540554fc6073effa718",
-    appSecret: "c8f3bc94f6109922037d9fdbb9af8084",
+    appKey: "16139fce534ed4ddaf7862a92e93d41c",
+    appSecret: "43b19cc10920b15945e9a7ffaffb4273",
     serviceUrl: "https://100016535.auth.konycloud.com/appconfig",
     svcDoc: {
         "selflink": "https://100016535.auth.konycloud.com/appconfig",
@@ -21,8 +21,8 @@ var appConfig = {
         "integsvc": {
             "bestBuyServices": "https://qualifacts-qa.konycloud.com/services/bestBuyServices"
         },
-        "service_doc_etag": "00000166A8559CF8",
-        "appId": "9692570d-8915-4a67-afb2-36b0fbbe7f31",
+        "service_doc_etag": "00000166EB1EE738",
+        "appId": "a53869fc-282d-4899-ba34-15a6d3435df3",
         "identity_features": {
             "reporting_params_header_allowed": true
         },

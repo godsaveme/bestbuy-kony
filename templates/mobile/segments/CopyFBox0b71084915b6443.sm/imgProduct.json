@@ -45,6 +45,7 @@
     "id": "imgProduct",
     "imagescalemode": 1,
     "info": null,
+    "invokedProperty": "imageWhileDownloading",
     "isSegmentChild": true,
     "iscustomlayout": false,
     "isvisible": true,

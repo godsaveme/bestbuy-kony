@@ -29,6 +29,7 @@ define("frmHome", function() {
                 "top": "0dp",
                 "width": "100%"
             }, {}, {});
+            bbheader.btnBackOnClick = controller.AS_UWI_i557c0c2ee3f4ad38ec41225c372a8f2;
             var flxBody = new kony.ui.FlexContainer({
                 "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "clipBounds": true,
@@ -37,7 +38,7 @@ define("frmHome", function() {
                 "isVisible": true,
                 "layoutType": kony.flex.FREE_FORM,
                 "left": "0dp",
-                "skin": "slFbox",
+                "skin": "CopyslFbox0a8343e77d73a44",
                 "top": "10%",
                 "width": "100%",
                 "zIndex": 1
@@ -81,12 +82,12 @@ define("frmHome", function() {
                 "pageOnDotImage": "pageondot.png",
                 "retainSelection": false,
                 "rowFocusSkin": "seg2Focus",
-                "rowSkin": "Copyseg0d5f6221fd6b34e",
+                "rowSkin": "segProdOnSale",
                 "rowTemplate": "FBox0b37fbd12b49b4e",
                 "scrollingEvents": {},
                 "sectionHeaderSkin": "sliPhoneSegmentHeader",
                 "selectionBehavior": constants.SEGUI_DEFAULT_BEHAVIOR,
-                "separatorColor": "aaaaaa00",
+                "separatorColor": "0000005f",
                 "separatorRequired": true,
                 "separatorThickness": 1,
                 "showScrollbars": false,
@@ -120,14 +121,14 @@ define("frmHome", function() {
                 "centerY": "50%",
                 "id": "lblBreadcrumb",
                 "isVisible": true,
-                "left": "25dp",
+                "left": "5%",
                 "skin": "CopydefLabel0a9e5f2e11b7348",
                 "textStyle": {
                     "letterSpacing": 0,
                     "strikeThrough": false
                 },
-                "top": "12dp",
-                "width": kony.flex.USE_PREFFERED_SIZE,
+                "textTruncatePosition": constants.TEXT_TRUNCATE_NONE,
+                "width": "90%",
                 "zIndex": 1
             }, {
                 "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
@@ -151,7 +152,7 @@ define("frmHome", function() {
                 "left": "0dp",
                 "pagingEnabled": false,
                 "scrollDirection": kony.flex.SCROLL_VERTICAL,
-                "skin": "slFSbox",
+                "skin": "CopyslFSbox0f71899ecf15948",
                 "top": "10%",
                 "verticalScrollIndicator": true,
                 "width": "100%",
@@ -163,9 +164,9 @@ define("frmHome", function() {
                 "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "data": [{
                     "imgProduct": "imagedrag.png",
-                    "lblAvgUserRating": "Avg User Raiting:",
-                    "lblName": "Title",
-                    "lblPrice": "Price"
+                    "lblAvgUserRating": "Label",
+                    "lblName": "Label",
+                    "lblPrice": "Label"
                 }],
                 "groupCells": false,
                 "height": "100%",
@@ -173,17 +174,16 @@ define("frmHome", function() {
                 "isVisible": true,
                 "left": "0dp",
                 "needPageIndicator": true,
-                "onRowClick": controller.AS_Segment_c846a8deeafc4be38bf870a003cc8f69,
                 "pageOffDotImage": "pageoffdot.png",
                 "pageOnDotImage": "pageondot.png",
                 "retainSelection": false,
                 "rowFocusSkin": "seg2Focus",
-                "rowSkin": "Copyseg0d5f6221fd6b34e",
+                "rowSkin": "segProdRegular",
                 "rowTemplate": "CopyFBox0b71084915b6443",
                 "scrollingEvents": {},
                 "sectionHeaderSkin": "sliPhoneSegmentHeader",
                 "selectionBehavior": constants.SEGUI_DEFAULT_BEHAVIOR,
-                "separatorColor": "aaaaaa00",
+                "separatorColor": "0000005f",
                 "separatorRequired": true,
                 "separatorThickness": 1,
                 "showScrollbars": false,
@@ -214,7 +214,7 @@ define("frmHome", function() {
             "layoutType": kony.flex.FREE_FORM,
             "needAppMenu": false,
             "postShow": controller.AS_Form_af45146f23074258895a6726729942b9,
-            "skin": "CopyslForm0cddd5ec095d640"
+            "skin": "blankFrmHome"
         }, {
             "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
             "layoutType": kony.flex.FREE_FORM,

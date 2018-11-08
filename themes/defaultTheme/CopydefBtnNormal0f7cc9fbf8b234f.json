@@ -2,7 +2,7 @@
   "android": {
     "font_name": "default"
   },
-  "background_image": "back_icon.png",
+  "background_image": "arrow_back.png",
   "bg_type": "image",
   "border_color": "ffffffff",
   "border_style": "plain",

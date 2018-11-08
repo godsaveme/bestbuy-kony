@@ -2,6 +2,6 @@ define(function() {
     return {
         "properties": [],
         "apis": [],
-        "events": []
+        "events": ["btnBackOnClick"]
     }
 });

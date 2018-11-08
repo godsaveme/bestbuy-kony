@@ -16,11 +16,11 @@ define("CopyFBox0b71084915b6443", function() {
             "id": "lblName",
             "isVisible": true,
             "left": "40%",
-            "skin": "CopydefLabel0a20231e12af540",
+            "skin": "CopydefLabel0d2de8fdc36474f",
             "text": "Label",
             "textStyle": {},
-            "top": "10%",
-            "width": kony.flex.USE_PREFFERED_SIZE,
+            "top": "5%",
+            "width": "50%",
             "zIndex": 1
         }, {
             "containerWeight": 100,
@@ -39,11 +39,11 @@ define("CopyFBox0b71084915b6443", function() {
         var lblPrice = new kony.ui.Label({
             "id": "lblPrice",
             "isVisible": true,
-            "left": "40%",
+            "left": "40.00%",
             "skin": "CopydefLabel0da013ed7740641",
             "text": "Label",
             "textStyle": {},
-            "top": "45%",
+            "top": "60%",
             "width": kony.flex.USE_PREFFERED_SIZE,
             "zIndex": 1
         }, {
@@ -82,11 +82,11 @@ define("CopyFBox0b71084915b6443", function() {
         var lblAvgUserRating = new kony.ui.Label({
             "id": "lblAvgUserRating",
             "isVisible": true,
-            "left": "40%",
+            "left": "40.03%",
             "skin": "CopydefLabel0dfc009557c3a4f",
             "text": "Label",
             "textStyle": {},
-            "top": "70%",
+            "top": "80%",
             "width": kony.flex.USE_PREFFERED_SIZE,
             "zIndex": 1
         }, {

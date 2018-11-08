@@ -1,0 +1,24 @@
+{
+    "AS_UWI_i557c0c2ee3f4ad38ec41225c372a8f2": {
+        "id": "AS_UWI_i557c0c2ee3f4ad38ec41225c372a8f2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c5b269f98f7f42d3b3ade112c8e9b47f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__a1bb23e7b8c24ad49da48db6139e719d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "return self.onBackButton.call(this);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -40,6 +40,8 @@
     "kuid": "u3a4e13f03df48dabb532137e8686cac",
     "layouttype": 2,
     "masterType": 1,
+    "menufocusskin": null,
+    "menunormalskin": null,
     "name": "kony.ui.Form2",
     "needappmenu": true,
     "outtransitionconfig": {

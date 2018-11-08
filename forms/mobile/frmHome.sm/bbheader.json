@@ -39,7 +39,9 @@
     "canUpdateUI": true,
     "clipbounds": true,
     "containerweight": 0,
-    "data": {},
+    "data": {
+        "ide_btnBackOnClick": "AS_UWI_i557c0c2ee3f4ad38ec41225c372a8f2"
+    },
     "id": "bbheader",
     "info": null,
     "iscustomlayout": false,

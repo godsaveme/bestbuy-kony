@@ -34,7 +34,7 @@ define(function() {
         var btnSearch = new kony.ui.Button({
             "centerX": "90%",
             "centerY": "50%",
-            "focusSkin": "defBtnFocus",
+            "focusSkin": "CopydefBtnFocus0e71c9c11c7fc41",
             "height": "30dp",
             "id": "btnSearch",
             "isVisible": true,
@@ -52,13 +52,14 @@ define(function() {
             "showProgressIndicator": true
         });
         var btnBack = new kony.ui.Button({
-            "centerX": "5%",
+            "centerX": "7%",
             "centerY": "50%",
-            "focusSkin": "defBtnFocus",
+            "focusSkin": "CopydefBtnFocus0bff71aad942642",
             "height": "30dp",
             "id": "btnBack",
             "isVisible": true,
             "left": "0dp",
+            "onClick": controller.AS_btnBackOnClick_ic667bcc87a8409fb2c97833e1b04cff,
             "skin": "CopydefBtnNormal0f7cc9fbf8b234f",
             "top": "0dp",
             "width": "30dp",

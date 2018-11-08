@@ -2,7 +2,7 @@
   "android": {
     "font_name": "default"
   },
-  "background_image": "search_icon.png",
+  "background_image": "search_icon1.png",
   "bg_type": "image",
   "border_color": "ffffffff",
   "border_style": "plain",

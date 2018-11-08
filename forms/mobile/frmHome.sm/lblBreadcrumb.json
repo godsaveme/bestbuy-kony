@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "25dp"
+        "value": "5%"
     },
     "_margin_": [
         1,
@@ -24,13 +24,9 @@
     ],
     "_skin_": "s8213c3dc5504e01a93e484400e09450",
     "_text_": "",
-    "_top_": {
-        "type": "string",
-        "value": "12dp"
-    },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "90%"
     },
     "_wrapping_": 2,
     "android": {
@@ -55,7 +51,11 @@
     },
     "iphone": {
         "psp": {
+            "textCopyable": false,
             "wrapping": 2
+        },
+        "textStyle": {
+            "strikeThrough": false
         }
     },
     "iscustomlayout": false,
@@ -67,6 +67,7 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},
+    "texttruncateposition": 0,
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

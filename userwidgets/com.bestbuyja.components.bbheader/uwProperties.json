@@ -1,29 +1,48 @@
 {
-    "namespace": "com.bestbuyja.components",
     "classname": "bbheader",
-    "version": "1.0.0",
     "definitions": {
-        "properties": {
-            "passthrough": [],
-            "custom": []
+        "apis": {
+            "custom": [],
+            "passthrough": []
         },
         "events": {
-            "passthrough": [],
-            "custom": []
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e7c55cba666041dda606647ed8f4e5dc",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "btnBackOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "btnBackOnClick",
+                        "srcWidget": "btnBack",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "ic667bcc87a8409fb2c97833e1b04cff"
+                }
+            ]
         },
-        "apis": {
-            "passthrough": [],
-            "custom": []
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
         },
         "widgets": {
             "expose": [],
             "passthrough": []
-        },
-        "groups": {
-            "properties": [],
-            "events": [],
-            "apis": [],
-            "widgets": []
         }
-    }
+    },
+    "namespace": "com.bestbuyja.components",
+    "version": "1.0.0"
 }

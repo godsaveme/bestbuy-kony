@@ -7,6 +7,7 @@ define({
             "classname": "bbheader",
             "name": "com.bestbuyja.components.bbheader"
         });
+        kony.mvc.registry.add("flxRowTemplate", "flxRowTemplate", "flxRowTemplateController");
         kony.mvc.registry.add("frmHome", "frmHome", "frmHomeController");
         setAppBehaviors();
     },

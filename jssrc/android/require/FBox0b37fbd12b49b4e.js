@@ -15,7 +15,7 @@ define("FBox0b37fbd12b49b4e", function() {
             "centerY": "50%",
             "id": "lblDescription",
             "isVisible": true,
-            "left": "25dp",
+            "left": "5%",
             "skin": "CopydefLabel0a20231e12af540x",
             "text": "Label",
             "textStyle": {

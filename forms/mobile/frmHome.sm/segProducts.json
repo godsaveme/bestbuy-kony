@@ -10,15 +10,15 @@
             },
             "lblAvgUserRating": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Avg User Raiting:"
+                "text": "Label"
             },
             "lblName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Title"
+                "text": "Label"
             },
             "lblPrice": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                "text": "Price"
+                "text": "Label"
             }
         }
     ],
@@ -62,7 +62,6 @@
     "groupcells": false,
     "hasSections": false,
     "id": "segProducts",
-    "ide_onRowClick": "AS_Segment_c846a8deeafc4be38bf870a003cc8f69",
     "info": null,
     "ipad": {
         "psp": {
@@ -93,7 +92,7 @@
     "rowTemplateId": "fafd083963c24e6a89d0d13a9fef4b7e",
     "rowcounter": 0,
     "rowfocusskin": "s4f55300201844bfb1c95ab324ca25e4",
-    "rowskin": "s512c9ece6c242b182cb3f5c82f53cdd",
+    "rowskin": "sce3617d1fc24ae0b72acb7610e430f3",
     "rowtemplate": "CopyFBox0b71084915b6443",
     "screenlevelwidget": false,
     "seccounter": 0,
@@ -105,7 +104,7 @@
     "selecteditems": null,
     "selectedsectionindex": 0,
     "selectionbehavior": "default",
-    "separatorcolor": "aaaaaa00",
+    "separatorcolor": "0000005f",
     "separatorrequired": true,
     "separatorthickness": 1,
     "showscrollbars": false,
